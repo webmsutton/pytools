@@ -1,6 +1,6 @@
 import re
 
-with open('C:\Users\mark.sutton\Documents\Evidence\evidencemonthly.csv') as f:
+with open('insertpath') as f:
 	content = f.readlines()
 f.close
 
