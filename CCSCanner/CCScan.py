@@ -7,7 +7,7 @@ f.close
 for s in content:
 	m = re.search('[0-9]{12,16}',s)
 	if m != None:
-		#Take each number and perform luhn check
+		#Take each number and perform Luhn check
 		#Split number into array
 		
 		
